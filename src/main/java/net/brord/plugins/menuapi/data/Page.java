@@ -18,5 +18,11 @@ public class Page {
 	public Page(List<Option> options) {
 		this.options = options;
 	}
-
+	
+	/**
+	 * @return the options
+	 */
+	public List<Option> getOptions() {
+		return options;
+	}
 }

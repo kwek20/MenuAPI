@@ -22,7 +22,7 @@ public interface GUI {
 	/**
 	 * Removes this {@link GUI} from the {@link Player}.<br/>
 	 * Does nothing if he doesn't have a {@link GUI}
-	 * @param player THe {@link Player} to remove from
+	 * @param player The {@link Player} to remove from
 	 * @return if the {@link GUI} was removed.
 	 */
 	boolean removeFromPlayer(@Nonnull Player player);

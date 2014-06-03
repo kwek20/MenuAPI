@@ -10,5 +10,22 @@ import org.bukkit.plugin.java.JavaPlugin;
  */
 public class MenuAPI extends JavaPlugin {
 
+	private static MenuAPI plugin;
+	
+	/**
+	 * @return
+	 */
+	public static MenuAPI getInstance() {
+		return plugin;
+	}
+
+	
+	/**
+	  * @see org.bukkit.plugin.java.JavaPlugin#onEnable()
+	  */
+	@Override
+	public void onEnable() {
+		plugin = this;
+	}
 	
 }

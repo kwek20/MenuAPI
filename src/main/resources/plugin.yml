@@ -2,4 +2,5 @@ name: ${name}
 main: ${groupId}.${artifactId}.${name}
 version: ${version}
 description: {description}
-authors: [kwek20]
+authors: ${authors}
+softdepend: ${softdepends}

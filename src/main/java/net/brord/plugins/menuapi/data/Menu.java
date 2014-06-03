@@ -2,6 +2,8 @@ package net.brord.plugins.menuapi.data;
 
 import java.util.List;
 
+import net.brord.plugins.menuapi.menus.Page;
+
 /**
  * Project menuapi<br/>
  * Class net.brord.plugins.menuapi.data.Menu.java<br/>
@@ -34,5 +36,14 @@ public class Menu {
 	 */
 	public List<Page> getPages() {
 		return pages;
+	}
+
+
+	/**
+	 * @param page
+	 * @return
+	 */
+	public Page getPage(int page) {
+		return pages.get(page);
 	}
 }

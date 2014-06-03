@@ -6,6 +6,11 @@
   <name>MenuAPI</name>
   <description>An API for making menus</description>
   
+  <properties>
+  	<softdepends>[HoloAPI]</softdepends>
+  	<authors>[Kwek20]</authors>
+  </properties>
+  
   <repositories>
 		<repository>
 			<id>bukkit-repo</id>
@@ -15,6 +20,14 @@
             <id>spigot-repo</id>
             <url>http://repo.md-5.net/content/repositories/snapshots/</url>
         </repository>
+	    <repository>
+	        <id>hawk-repo</id>
+	        <url>http://ci.hawkfalcon.com/plugin/repository/everything/</url>
+	    </repository>
+	    <repository>
+			<id>milkbowl-repo</id>
+			<url>http://ci.milkbowl.net/plugin/repository/everything/</url>
+		</repository>
 	</repositories>
 	
 	<dependencies>
@@ -28,6 +41,18 @@
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot</artifactId>
 			<version>1.7.9-R0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+	        <groupId>com.dsh105</groupId>
+	        <artifactId>HoloAPI</artifactId>
+	        <version>1.0.7</version>
+	    </dependency>
+	    
+	    <dependency>
+			<groupId>net.milkbowl.vault</groupId>
+			<artifactId>Vault</artifactId>
+			<version>1.2.16-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
