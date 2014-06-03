@@ -11,12 +11,28 @@ import java.util.List;
 public class Menu {
 	
 	private List<Page> pages;
+	private String name;
 
 	/**
 	 * 
 	 */
-	public Menu(List<Page> pages) {
+	public Menu(String name, List<Page> pages) {
+		this.name = name;
 		this.pages = pages;
 	}
 
+	
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+	
+	/**
+	 * @return the pages
+	 */
+	public List<Page> getPages() {
+		return pages;
+	}
 }
